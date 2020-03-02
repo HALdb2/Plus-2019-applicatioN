@@ -4,4 +4,10 @@ This example deploys self-hosted version of [Remix](https://remix.run/) using th
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/remix?referralCode=faraz)
 
-## ✨ Feat
+## ✨ Features
+
+- Remix
+- TypeScript
+- PostgreSQL
+
+## 💁‍♀️ How to use
