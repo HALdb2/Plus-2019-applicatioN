@@ -11,3 +11,6 @@ This example deploys self-hosted version of [Remix](https://remix.run/) using th
 - PostgreSQL
 
 ## 💁‍♀️ How to use
+
+- Click the Railway button 👆
+- Add the `SESSION_SECRET` env
