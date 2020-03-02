@@ -13,4 +13,5 @@ This example deploys self-hosted version of [Remix](https://remix.run/) using th
 ## 💁‍♀️ How to use
 
 - Click the Railway button 👆
-- Add the `SESSION_SECRET` env
+- Add the `SESSION_SECRET` environment variable
+  - You can hit CMD+K and use our
