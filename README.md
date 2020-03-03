@@ -18,4 +18,5 @@ This example deploys self-hosted version of [Remix](https://remix.run/) using th
 
 ## 📝 Notes
 
-- [Official docs](https://r
+- [Official docs](https://remix.run/docs/en/v1)
+- A [video](https://youtu.be/1ue
