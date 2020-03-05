@@ -1,1 +1,5 @@
-import { PrismaClie
+import { PrismaClient } from "@prisma/client";
+
+let prisma: PrismaClient;
+
+declare 
