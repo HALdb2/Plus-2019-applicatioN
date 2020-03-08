@@ -7,4 +7,5 @@ declare global {
 }
 
 // this is needed because in development we don't want to restart
-// the server
+// the server with every change, but we want to make sure we don't
+// cre
