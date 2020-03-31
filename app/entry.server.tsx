@@ -3,4 +3,6 @@ import { RemixServer } from "remix";
 import type { EntryContext } from "remix";
 
 export default function handleRequest(
-  requ
+  request: Request,
+  responseStatusCode: number,
+  res
