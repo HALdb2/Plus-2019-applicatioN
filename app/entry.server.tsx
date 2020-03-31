@@ -5,4 +5,6 @@ import type { EntryContext } from "remix";
 export default function handleRequest(
   request: Request,
   responseStatusCode: number,
-  res
+  responseHeaders: Headers,
+  remixContext: EntryContext
+) {
