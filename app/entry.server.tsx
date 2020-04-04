@@ -9,4 +9,7 @@ export default function handleRequest(
   remixContext: EntryContext
 ) {
   const markup = renderToString(
-    <RemixServer context={remixCont
+    <RemixServer context={remixContext} url={request.url} />
+  );
+
+  responseHeaders.set("Content-Ty
