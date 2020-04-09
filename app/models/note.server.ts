@@ -6,4 +6,4 @@ export function getNote({ userId, id }: { userId: string; id: string }) {
   });
 }
 
-export 
+export function getNoteListItems({ userId }: { userId: string
