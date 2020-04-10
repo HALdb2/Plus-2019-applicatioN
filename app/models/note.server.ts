@@ -8,4 +8,5 @@ export function getNote({ userId, id }: { userId: string; id: string }) {
 
 export function getNoteListItems({ userId }: { userId: string }) {
   return prisma.note.findMany({
-    where: { userId: use
+    where: { userId: userId },
+    select: { id: true, title: true },
