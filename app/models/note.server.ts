@@ -14,4 +14,10 @@ export function getNoteListItems({ userId }: { userId: string }) {
   });
 }
 
-export func
+export function createNote({
+  title,
+  body,
+  userId,
+}: {
+  title: string;
+  
