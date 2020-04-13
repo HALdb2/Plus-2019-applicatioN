@@ -10,3 +10,8 @@ export function getNoteListItems({ userId }: { userId: string }) {
   return prisma.note.findMany({
     where: { userId: userId },
     select: { id: true, title: true },
+    orderBy: { updatedAt: "desc" },
+  });
+}
+
+export func
