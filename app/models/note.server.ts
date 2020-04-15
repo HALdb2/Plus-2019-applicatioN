@@ -20,4 +20,7 @@ export function createNote({
   userId,
 }: {
   title: string;
-  
+  body: string;
+  userId: string;
+}) {
+  ret
