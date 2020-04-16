@@ -23,4 +23,6 @@ export function createNote({
   body: string;
   userId: string;
 }) {
-  ret
+  return prisma.note.create({
+    data: {
+      tit
