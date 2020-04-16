@@ -25,4 +25,8 @@ export function createNote({
 }) {
   return prisma.note.create({
     data: {
-      tit
+      title,
+      body,
+      user: {
+        connect: {
+       
