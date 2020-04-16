@@ -29,4 +29,11 @@ export function createNote({
       body,
       user: {
         connect: {
-       
+          id: userId,
+        },
+      },
+    },
+  });
+}
+
+expo
