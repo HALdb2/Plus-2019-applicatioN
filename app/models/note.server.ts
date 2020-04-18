@@ -36,4 +36,5 @@ export function createNote({
   });
 }
 
-export function deleteNote({ id, userId }: { id: s
+export function deleteNote({ id, userId }: { id: string; userId: string }) {
+  return prisma.note
