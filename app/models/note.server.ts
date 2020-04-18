@@ -36,4 +36,4 @@ export function createNote({
   });
 }
 
-expo
+export function deleteNote({ id, userId }: { id: s
