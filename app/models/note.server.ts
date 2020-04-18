@@ -42,4 +42,4 @@ export function deleteNote({ id, userId }: { id: string; userId: string }) {
   });
 }
 
-export type { 
+export type { Note } from "@prisma/client";
