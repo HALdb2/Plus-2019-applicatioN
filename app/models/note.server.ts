@@ -37,4 +37,9 @@ export function createNote({
 }
 
 export function deleteNote({ id, userId }: { id: string; userId: string }) {
-  return prisma.note
+  return prisma.note.deleteMany({
+    where: { id, userId },
+  });
+}
+
+export type { 
