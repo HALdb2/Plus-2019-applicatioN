@@ -3,4 +3,5 @@ import { prisma } from "~/db.server";
 
 export type { User } from "@prisma/client";
 
-export asy
+export async function getUserById(id: string) {
+  return pr
