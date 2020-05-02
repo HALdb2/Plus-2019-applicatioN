@@ -20,3 +20,11 @@ export async function createUser(email: string, password: string) {
         create: {
           hash: hashedPassword,
         },
+      },
+    },
+  });
+
+  return user;
+}
+
+export async func
