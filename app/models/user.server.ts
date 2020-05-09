@@ -27,4 +27,5 @@ export async function createUser(email: string, password: string) {
   return user;
 }
 
-export async func
+export async function deleteUserByEmail(email: string) {
+  return prisma.user
