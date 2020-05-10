@@ -31,4 +31,5 @@ export async function deleteUserByEmail(email: string) {
   return prisma.user.delete({ where: { email } });
 }
 
-export async functio
+export async function verifyLogin(email: string, password: string) {
+  cons
