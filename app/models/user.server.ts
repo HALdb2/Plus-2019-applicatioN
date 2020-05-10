@@ -32,4 +32,5 @@ export async function deleteUserByEmail(email: string) {
 }
 
 export async function verifyLogin(email: string, password: string) {
-  cons
+  const userWithPassword = await prisma.user.findUnique({
+    where: { e
