@@ -40,4 +40,7 @@ export async function verifyLogin(email: string, password: string) {
   });
 
   if (!userWithPassword || !userWithPassword.password) {
-    ret
+    return null;
+  }
+
+  const isValid = await bcrypt.verify(pa
