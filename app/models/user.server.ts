@@ -39,4 +39,5 @@ export async function verifyLogin(email: string, password: string) {
     },
   });
 
- 
+  if (!userWithPassword || !userWithPassword.password) {
+    ret
