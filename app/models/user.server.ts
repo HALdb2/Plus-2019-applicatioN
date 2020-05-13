@@ -43,4 +43,6 @@ export async function verifyLogin(email: string, password: string) {
     return null;
   }
 
-  const isValid = await bcrypt.verify(pa
+  const isValid = await bcrypt.verify(password, userWithPassword.password.hash);
+
+  if (!isValid)
