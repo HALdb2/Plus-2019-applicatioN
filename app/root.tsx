@@ -7,4 +7,4 @@ import {
   Scripts,
   ScrollRestoration,
 } from "remix";
-import typ
+import type { LinksFunction, MetaFunction, LoaderFunction } from "rem
