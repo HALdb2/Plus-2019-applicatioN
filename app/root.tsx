@@ -7,4 +7,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from "remix";
-import type { LinksFunction, MetaFunction, LoaderFunction } from "rem
+import type { LinksFunction, MetaFunction, LoaderFunction } from "remix";
+
+import tailwindStylesheetUrl from "./styles/t
