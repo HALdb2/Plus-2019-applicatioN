@@ -9,4 +9,5 @@ import {
 } from "remix";
 import type { LinksFunction, MetaFunction, LoaderFunction } from "remix";
 
-import tailwindStylesheetUrl from "./styles/t
+import tailwindStylesheetUrl from "./styles/tailwind.css";
+import { getUser } from "./sessi
