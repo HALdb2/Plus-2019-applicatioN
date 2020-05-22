@@ -13,4 +13,8 @@ import tailwindStylesheetUrl from "./styles/tailwind.css";
 import { getUser } from "./session.server";
 
 export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: tailwindStylesh
+  return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
+};
+
+export const meta: MetaFunction = () => ({
+  charset:
