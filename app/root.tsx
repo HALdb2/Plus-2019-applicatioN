@@ -23,4 +23,7 @@ export const meta: MetaFunction = () => ({
 });
 
 type LoaderData = {
-  user: Awa
+  user: Awaited<ReturnType<typeof getUser>>;
+};
+
+export const loader: Loade
