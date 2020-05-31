@@ -34,4 +34,6 @@ export const loader: LoaderFunction = async ({ request }) => {
 
 export default function App() {
   return (
-    <html lan
+    <html lang="en" className="h-full">
+      <head>
+        <Met
