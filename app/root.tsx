@@ -30,3 +30,8 @@ export const loader: LoaderFunction = async ({ request }) => {
   return json<LoaderData>({
     user: await getUser(request),
   });
+};
+
+export default function App() {
+  return (
+    <html lan
