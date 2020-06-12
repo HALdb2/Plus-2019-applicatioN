@@ -45,4 +45,6 @@ export default function App() {
         <Scripts />
         <LiveReload />
       </body>
-  
+    </html>
+  );
+}
