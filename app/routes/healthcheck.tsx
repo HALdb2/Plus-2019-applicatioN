@@ -4,4 +4,7 @@ import { prisma } from "~/db.server";
 
 export const loader: LoaderFunction = async ({ request }) => {
   const host =
-    request.headers.get("X-Forwar
+    request.headers.get("X-Forwarded-Host") ?? request.headers.get("host");
+
+  try {
+    // if we 
