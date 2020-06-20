@@ -7,4 +7,5 @@ export const loader: LoaderFunction = async ({ request }) => {
     request.headers.get("X-Forwarded-Host") ?? request.headers.get("host");
 
   try {
-    // if we 
+    // if we can connect to the database and make a simple query
+   
