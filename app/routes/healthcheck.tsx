@@ -11,4 +11,5 @@ export const loader: LoaderFunction = async ({ request }) => {
     // and make a HEAD request to ourselves, then we're good.
     await Promise.all([
       prisma.user.count(),
-      fetch(`http://${host}`, { method: "
+      fetch(`http://${host}`, { method: "HEAD" }).then((r) => {
+        if (!r.ok) return P
