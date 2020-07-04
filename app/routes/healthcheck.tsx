@@ -12,4 +12,7 @@ export const loader: LoaderFunction = async ({ request }) => {
     await Promise.all([
       prisma.user.count(),
       fetch(`http://${host}`, { method: "HEAD" }).then((r) => {
-        if (!r.ok) return P
+        if (!r.ok) return Promise.reject(r);
+      }),
+    ]);
+    
