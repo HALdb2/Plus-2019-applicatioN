@@ -15,4 +15,6 @@ export const loader: LoaderFunction = async ({ request }) => {
         if (!r.ok) return Promise.reject(r);
       }),
     ]);
-    
+    return new Response("OK");
+  } catch (error: unknown) {
+    console.log("he
