@@ -17,4 +17,5 @@ export const loader: LoaderFunction = async ({ request }) => {
     ]);
     return new Response("OK");
   } catch (error: unknown) {
-    console.log("he
+    console.log("healthcheck ❌", { error });
+    return new Response("ERROR",
