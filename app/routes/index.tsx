@@ -3,4 +3,5 @@ import { useOptionalUser } from "~/utils";
 
 export default function Index() {
   const user = useOptionalUser();
-  retu
+  return (
+    <main className="relative min-h-scre
