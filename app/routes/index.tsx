@@ -10,4 +10,5 @@ export default function Index() {
           <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
             <div className="absolute inset-0">
               <img
-                classNam
+                className="h-full w-full object-cover"
+                src="https://user-ima
