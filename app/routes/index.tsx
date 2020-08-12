@@ -21,3 +21,5 @@ export default function Index() {
                 <span className="block uppercase text-yellow-500 drop-shadow-md">
                   Indie Stack
                 </span>
+              </h1>
+              <p className="mx-auto m
