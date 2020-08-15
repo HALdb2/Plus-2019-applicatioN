@@ -22,4 +22,5 @@ export default function Index() {
                   Indie Stack
                 </span>
               </h1>
-              <p className="mx-auto m
+              <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
+       
