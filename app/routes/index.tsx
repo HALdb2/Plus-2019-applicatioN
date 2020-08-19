@@ -26,4 +26,5 @@ export default function Index() {
                 Check the README.md file for instructions on how to get this
                 project deployed.
               </p>
-              <div className="mx-auto mt-10 max-w-sm
+              <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+              
