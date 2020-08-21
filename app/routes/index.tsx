@@ -30,4 +30,4 @@ export default function Index() {
                 {user ? (
                   <Link
                     to="/notes"
- 
+                    className="flex items-center justify-center rounded-md 
