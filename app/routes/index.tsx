@@ -34,4 +34,5 @@ export default function Index() {
                   >
                     View Notes for {user.email}
                   </Link>
-                
+                ) : (
+                  <div className="s
