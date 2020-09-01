@@ -35,4 +35,6 @@ export default function Index() {
                     View Notes for {user.email}
                   </Link>
                 ) : (
-                  <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-
+                  <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+                    <Link
+            
