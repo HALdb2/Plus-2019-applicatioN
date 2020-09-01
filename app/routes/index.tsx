@@ -38,4 +38,4 @@ export default function Index() {
                   <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
                     <Link
                       to="/join"
-                      clas
+                      className="flex items-center justify-center rounded-md border border-t
