@@ -44,4 +44,4 @@ export default function Index() {
                     </Link>
                     <Link
                       to="/login"
-                      className="flex items-c
+                      className="flex items-center justify-center rounded-md bg-yellow-500 px-4 
