@@ -57,4 +57,9 @@ export default function Index() {
                   alt="Remix"
                   className="mx-auto mt-16 w-full max-w-[12rem] md:max-w-[16rem]"
                 />
-    
+              </a>
+            </div>
+          </div>
+        </div>
+
+  
