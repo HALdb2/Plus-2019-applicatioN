@@ -62,4 +62,4 @@ export default function Index() {
           </div>
         </div>
 
-  
+        <div className="mx-auto max-w-7xl py-2 px-4 sm:px
