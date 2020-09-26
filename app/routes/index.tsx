@@ -69,4 +69,6 @@ export default function Index() {
                 src: "https://devicons.railway.app/i/railway-dark.svg",
                 alt: "Railway",
                 href: "https://railway.app/",
-            
+              },
+              {
+                src: "https://user-imag
