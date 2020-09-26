@@ -66,4 +66,6 @@ export default function Index() {
           <div className="mt-6 flex flex-wrap justify-center gap-8">
             {[
               {
-                src: "https://devicons.railw
+                src: "https://devicons.railway.app/i/railway-dark.svg",
+                alt: "Railway",
+    
