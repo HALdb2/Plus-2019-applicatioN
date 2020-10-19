@@ -76,4 +76,4 @@ export default function Index() {
                 href: "https://www.postgresql.org/",
               },
               {
-                src
+                src: "https://user-images.githubusercontent.com/150068
