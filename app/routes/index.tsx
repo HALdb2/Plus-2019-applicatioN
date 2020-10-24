@@ -86,4 +86,4 @@ export default function Index() {
                 href: "https://tailwindcss.com",
               },
               {
-                src: "https://user-images.githubusercontent.com/
+                src: "https://user-images.githubusercontent.com/1500684/157764454-48ac8c71-a2a9-4b5e-b19c-edef8b8953d
