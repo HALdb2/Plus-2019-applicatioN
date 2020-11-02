@@ -91,4 +91,6 @@ export default function Index() {
                 href: "https://www.cypress.io",
               },
               {
-                src: "https://user-images.githubusercontent.com/1500684/157772386-75444196-0604-4340-af
+                src: "https://user-images.githubusercontent.com/1500684/157772386-75444196-0604-4340-af28-53b236faa182.svg",
+                alt: "MSW",
+   
