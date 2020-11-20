@@ -96,4 +96,4 @@ export default function Index() {
                 href: "https://mswjs.io",
               },
               {
-                src: "https://user-images.github
+                src: "https://user-images.githubusercontent.com/1500684/157772447-00fccdce-9d12-
