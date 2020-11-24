@@ -97,4 +97,6 @@ export default function Index() {
               },
               {
                 src: "https://user-images.githubusercontent.com/1500684/157772447-00fccdce-9d12-46a3-8bb4-fac612cdc949.svg",
-                alt: "Vitest
+                alt: "Vitest",
+                href: "https://vitest.dev",
+        
