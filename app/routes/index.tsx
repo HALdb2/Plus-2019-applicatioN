@@ -102,4 +102,5 @@ export default function Index() {
               },
               {
                 src: "https://user-images.githubusercontent.com/1500684/157772662-92b0dd3a-453f-4d18-b8be-9fa6efde52cf.png",
-                alt: 
+                alt: "Testing Library",
+                href: "https://testing-librar
