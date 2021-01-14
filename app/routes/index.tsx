@@ -117,3 +117,5 @@ export default function Index() {
               },
               {
                 src: "https://user-images.githubusercontent.com/1500684/157773063-20a0ed64-b9f8-4e0b-9d1e-0b65a3d4a6db.svg",
+                alt: "TypeScript",
+                href: "https
