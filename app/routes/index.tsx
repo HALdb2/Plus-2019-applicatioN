@@ -120,4 +120,7 @@ export default function Index() {
                 alt: "TypeScript",
                 href: "https://typescriptlang.org",
               },
-       
+            ].map((img) => (
+              <a
+                key={img.href}
+ 
