@@ -1,3 +1,5 @@
 import type { ActionFunction, LoaderFunction } from "remix";
 import { redirect } from "remix";
-import { logout } from "~/s
+import { logout } from "~/session.server";
+
+export const action: ActionFunction = 
