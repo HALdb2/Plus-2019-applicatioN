@@ -7,4 +7,5 @@ export const action: ActionFunction = async ({ request }) => {
 };
 
 export const loader: LoaderFunction = async () => {
-  retu
+  return redirect("/");
+};
