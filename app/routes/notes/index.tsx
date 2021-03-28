@@ -3,4 +3,5 @@ import { Link } from "remix";
 export default function NoteIndexPage() {
   return (
     <p>
-      No note
+      No note selected. Select a note on the left, or{" "}
+      <Link to="new"
