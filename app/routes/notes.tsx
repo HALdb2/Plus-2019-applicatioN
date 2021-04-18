@@ -3,4 +3,7 @@ import type { LoaderFunction } from "remix";
 
 import { requireUserId } from "~/session.server";
 import { useUser } from "~/utils";
-import { getNoteListItems } from "~/
+import { getNoteListItems } from "~/models/note.server";
+
+type LoaderData = {
+  n
