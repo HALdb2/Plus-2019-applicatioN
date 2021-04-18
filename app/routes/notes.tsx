@@ -6,4 +6,7 @@ import { useUser } from "~/utils";
 import { getNoteListItems } from "~/models/note.server";
 
 type LoaderData = {
-  n
+  noteListItems: Awaited<ReturnType<typeof getNoteListItems>>;
+};
+
+export const load
