@@ -9,4 +9,5 @@ type LoaderData = {
   noteListItems: Awaited<ReturnType<typeof getNoteListItems>>;
 };
 
-export const load
+export const loader: LoaderFunction = async ({ request }) => {
+  const user
