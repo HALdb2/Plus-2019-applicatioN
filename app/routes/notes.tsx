@@ -10,4 +10,5 @@ type LoaderData = {
 };
 
 export const loader: LoaderFunction = async ({ request }) => {
-  const user
+  const userId = await requireUserId(request);
+  const noteListItems =
