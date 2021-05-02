@@ -16,4 +16,5 @@ export const loader: LoaderFunction = async ({ request }) => {
 };
 
 export default function NotesPage() {
-  c
+  const data = useLoaderData() as LoaderData;
+  const user = useUser()
