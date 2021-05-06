@@ -26,4 +26,6 @@ export default function NotesPage() {
           <Link to=".">Notes</Link>
         </h1>
         <p>{user.email}</p>
-        <
+        <Form action="/logout" method="post">
+          <button
+            
