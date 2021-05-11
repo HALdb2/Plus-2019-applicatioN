@@ -28,4 +28,5 @@ export default function NotesPage() {
         <p>{user.email}</p>
         <Form action="/logout" method="post">
           <button
-            
+            type="submit"
+            className="
