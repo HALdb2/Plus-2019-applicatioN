@@ -36,4 +36,5 @@ export default function NotesPage() {
         </Form>
       </header>
 
-      <main className
+      <main className="flex h-full bg-white">
+        <div className="h-full w-80 bor
