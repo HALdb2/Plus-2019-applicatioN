@@ -44,4 +44,5 @@ export default function NotesPage() {
 
           <hr />
 
-          {
+          {data.noteListItems.length === 0 ? (
+            <p className="p-
