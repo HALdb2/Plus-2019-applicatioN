@@ -51,4 +51,5 @@ export default function NotesPage() {
               {data.noteListItems.map((note) => (
                 <li key={note.id}>
                   <NavLink
-          
+                    className={({ isActive }) =>
+                      
