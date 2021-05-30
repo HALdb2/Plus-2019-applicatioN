@@ -49,4 +49,6 @@ export default function NotesPage() {
           ) : (
             <ol>
               {data.noteListItems.map((note) => (
-            
+                <li key={note.id}>
+                  <NavLink
+          
