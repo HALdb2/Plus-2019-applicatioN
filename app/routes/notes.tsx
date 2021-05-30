@@ -48,4 +48,5 @@ export default function NotesPage() {
             <p className="p-4">No notes yet</p>
           ) : (
             <ol>
-          
+              {data.noteListItems.map((note) => (
+            
