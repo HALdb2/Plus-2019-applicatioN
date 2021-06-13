@@ -57,4 +57,6 @@ export default function NotesPage() {
                     to={note.id}
                   >
                     📝 {note.title}
-   
+                  </NavLink>
+                </li>
+             
