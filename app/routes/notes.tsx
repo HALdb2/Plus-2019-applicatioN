@@ -65,4 +65,9 @@ export default function NotesPage() {
         </div>
 
         <div className="flex-1 p-6">
-          <Outlet 
+          <Outlet />
+        </div>
+      </main>
+    </div>
+  );
+}
