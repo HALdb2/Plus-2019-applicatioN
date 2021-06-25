@@ -17,3 +17,7 @@ export const sessionStorage = createCookieSessionStorage({
     secure: process.env.NODE_ENV === "production",
   },
 });
+
+const USER_SESSION_KEY = "userId";
+
+export async function getSession(
