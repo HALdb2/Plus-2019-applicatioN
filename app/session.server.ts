@@ -25,4 +25,4 @@ export async function getSession(request: Request) {
   return sessionStorage.getSession(cookie);
 }
 
-export 
+export async function getUserId(request: Request): Promise<string
