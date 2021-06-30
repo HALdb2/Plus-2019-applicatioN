@@ -25,4 +25,5 @@ export async function getSession(request: Request) {
   return sessionStorage.getSession(cookie);
 }
 
-export async function getUserId(request: Request): Promise<string
+export async function getUserId(request: Request): Promise<string | undefined> {
+  const session = await getSession(requ
