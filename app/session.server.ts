@@ -31,4 +31,6 @@ export async function getUserId(request: Request): Promise<string | undefined> {
   return userId;
 }
 
-export async function getUser(request: Request): Promis
+export async function getUser(request: Request): Promise<null | User> {
+  const userId = await getUserId(request);
+  if 
