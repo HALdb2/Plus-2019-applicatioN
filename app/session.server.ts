@@ -33,4 +33,6 @@ export async function getUserId(request: Request): Promise<string | undefined> {
 
 export async function getUser(request: Request): Promise<null | User> {
   const userId = await getUserId(request);
-  if 
+  if (userId === undefined) return null;
+
+  const user = a
