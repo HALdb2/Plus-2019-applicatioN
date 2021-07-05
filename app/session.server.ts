@@ -38,4 +38,7 @@ export async function getUser(request: Request): Promise<null | User> {
   const user = await getUserById(userId);
   if (user) return user;
 
-  throw
+  throw await logout(request);
+}
+
+export async functi
