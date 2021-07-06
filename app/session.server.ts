@@ -41,4 +41,6 @@ export async function getUser(request: Request): Promise<null | User> {
   throw await logout(request);
 }
 
-export async functi
+export async function requireUserId(
+  request: Request,
+  redirectTo
