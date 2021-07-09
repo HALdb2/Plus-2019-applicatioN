@@ -47,4 +47,5 @@ export async function requireUserId(
 ): Promise<string> {
   const userId = await getUserId(request);
   if (!userId) {
-    const searchParams = new URLSearchParams([
+    const searchParams = new URLSearchParams([["redirectTo", redirectTo]]);
+    throw redirect(`/login
