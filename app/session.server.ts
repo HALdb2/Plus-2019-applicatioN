@@ -53,4 +53,5 @@ export async function requireUserId(
   return userId;
 }
 
-export async fu
+export async function requireUser(request: Request) {
+  const userId = aw
