@@ -62,4 +62,7 @@ export async function requireUser(request: Request) {
   throw await logout(request);
 }
 
-expo
+export async function createUserSession({
+  request,
+  userId,
+  re
