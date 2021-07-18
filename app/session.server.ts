@@ -65,4 +65,8 @@ export async function requireUser(request: Request) {
 export async function createUserSession({
   request,
   userId,
-  re
+  remember,
+  redirectTo,
+}: {
+  request: Request;
+  userId: st
