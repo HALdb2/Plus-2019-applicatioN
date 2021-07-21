@@ -77,4 +77,6 @@ export async function createUserSession({
   session.set(USER_SESSION_KEY, userId);
   return redirect(redirectTo, {
     headers: {
-      "Set-Cookie": await sessionStorage.commitSession(ses
+      "Set-Cookie": await sessionStorage.commitSession(session, {
+        maxAge: remember
+          ? 60 * 60 * 24 * 7 // 7 
