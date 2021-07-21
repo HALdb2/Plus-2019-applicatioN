@@ -77,4 +77,4 @@ export async function createUserSession({
   session.set(USER_SESSION_KEY, userId);
   return redirect(redirectTo, {
     headers: {
-  
+      "Set-Cookie": await sessionStorage.commitSession(ses
