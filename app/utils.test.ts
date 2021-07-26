@@ -1,3 +1,4 @@
 import { validateEmail } from "./utils";
 
-test("valida
+test("validateEmail returns false for non-emails", () => {
+  expect(vali
