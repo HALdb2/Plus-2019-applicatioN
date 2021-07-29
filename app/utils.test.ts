@@ -8,4 +8,5 @@ test("validateEmail returns false for non-emails", () => {
   expect(validateEmail("n@")).toBe(false);
 });
 
-test("v
+test("validateEmail returns true for emails", () => {
+  expect(
