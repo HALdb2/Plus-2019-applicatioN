@@ -5,4 +5,7 @@ test("validateEmail returns false for non-emails", () => {
   expect(validateEmail(null)).toBe(false);
   expect(validateEmail("")).toBe(false);
   expect(validateEmail("not-an-email")).toBe(false);
-  ex
+  expect(validateEmail("n@")).toBe(false);
+});
+
+test("v
