@@ -9,4 +9,5 @@ test("validateEmail returns false for non-emails", () => {
 });
 
 test("validateEmail returns true for emails", () => {
-  expect(
+  expect(validateEmail("kody@example.com")).toBe(true);
+});
