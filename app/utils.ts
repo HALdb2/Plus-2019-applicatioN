@@ -10,4 +10,6 @@ import type { User } from "~/models/user.server";
  * @returns {JSON|undefined} The router data or undefined if not found
  */
 export function useMatchesData(
-  id: st
+  id: string
+): Record<string, unknown> | undefined {
+  const mat
