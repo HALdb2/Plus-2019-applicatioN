@@ -12,4 +12,5 @@ import type { User } from "~/models/user.server";
 export function useMatchesData(
   id: string
 ): Record<string, unknown> | undefined {
-  const mat
+  const matchingRoutes = useMatches();
+  const route = useMemo(
