@@ -21,4 +21,4 @@ export function useMatchesData(
 }
 
 function isUser(user: any): user is User {
-  return u
+  return user && typeof user === "object" && typeof user.email === "string";
