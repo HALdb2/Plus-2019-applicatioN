@@ -22,3 +22,7 @@ export function useMatchesData(
 
 function isUser(user: any): user is User {
   return user && typeof user === "object" && typeof user.email === "string";
+}
+
+export function useOptionalUser(): User | undefined {
+  co
