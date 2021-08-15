@@ -32,4 +32,6 @@ export function useOptionalUser(): User | undefined {
   return data.user;
 }
 
-export function useUs
+export function useUser(): User {
+  const maybeUser = useOptionalUser();
+  if
