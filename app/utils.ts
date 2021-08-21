@@ -42,4 +42,5 @@ export function useUser(): User {
   return maybeUser;
 }
 
-export function validateEmail(em
+export function validateEmail(email: unknown): email is string {
+  return typeof email === 
