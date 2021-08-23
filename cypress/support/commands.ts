@@ -13,4 +13,7 @@ declare global {
        * @example
        *    cy.login({ email: 'whatever@example.com' })
        */
-      login: typeof logi
+      login: typeof login;
+
+      /**
+       * Deletes the current @user
