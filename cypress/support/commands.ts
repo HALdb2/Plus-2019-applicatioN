@@ -10,4 +10,5 @@ declare global {
        * @memberof Chainable
        * @example
        *    cy.login()
-       * @
+       * @example
+       *    cy.login({ email: 'whatev
