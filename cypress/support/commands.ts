@@ -11,4 +11,6 @@ declare global {
        * @example
        *    cy.login()
        * @example
-       *    cy.login({ email: 'whatev
+       *    cy.login({ email: 'whatever@example.com' })
+       */
+      login: typeof logi
