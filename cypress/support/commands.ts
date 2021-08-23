@@ -7,4 +7,7 @@ declare global {
        * Logs in with a random user. Yields the user and adds an alias to the user
        *
        * @returns {typeof login}
-       * @memberof Ch
+       * @memberof Chainable
+       * @example
+       *    cy.login()
+       * @
