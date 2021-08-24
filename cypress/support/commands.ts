@@ -23,4 +23,6 @@ declare global {
        * @example
        *    cy.cleanupUser()
        * @example
-       *    cy.cleanupUser
+       *    cy.cleanupUser({ email: 'whatever@example.com' })
+       */
+      cle
