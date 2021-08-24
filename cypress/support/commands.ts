@@ -19,4 +19,6 @@ declare global {
        * Deletes the current @user
        *
        * @returns {typeof cleanupUser}
-       *
+       * @memberof Chainable
+       * @example
+       *    cy
