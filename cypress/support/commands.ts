@@ -17,3 +17,6 @@ declare global {
 
       /**
        * Deletes the current @user
+       *
+       * @returns {typeof cleanupUser}
+       *
