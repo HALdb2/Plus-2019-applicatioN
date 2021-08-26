@@ -25,4 +25,9 @@ declare global {
        * @example
        *    cy.cleanupUser({ email: 'whatever@example.com' })
        */
-      cle
+      cleanupUser: typeof cleanupUser;
+    }
+  }
+}
+
+function login({
