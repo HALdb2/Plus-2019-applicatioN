@@ -31,3 +31,4 @@ declare global {
 }
 
 function login({
+  email = faker.internet.email(undefined, undefined, "example.co
