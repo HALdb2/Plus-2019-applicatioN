@@ -37,4 +37,4 @@ function login({
 } = {}) {
   cy.then(() => ({ email })).as("user");
   cy.exec(
-    `node --r
+    `node --require esbuild-register ./cypress/support/create-user.ts "${email}"`
