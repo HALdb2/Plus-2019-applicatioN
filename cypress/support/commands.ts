@@ -35,4 +35,6 @@ function login({
 }: {
   email?: string;
 } = {}) {
-  cy.then(() =
+  cy.then(() => ({ email })).as("user");
+  cy.exec(
+    `node --r
