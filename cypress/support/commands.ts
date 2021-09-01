@@ -38,3 +38,5 @@ function login({
   cy.then(() => ({ email })).as("user");
   cy.exec(
     `node --require esbuild-register ./cypress/support/create-user.ts "${email}"`
+  ).then(({ stdout }) => {
+    const cookieValue = stdout
