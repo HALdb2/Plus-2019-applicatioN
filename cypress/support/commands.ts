@@ -40,3 +40,4 @@ function login({
     `node --require esbuild-register ./cypress/support/create-user.ts "${email}"`
   ).then(({ stdout }) => {
     const cookieValue = stdout
+      .replace(/.*<cookie>(?<cookieValue>.*)<\/cookie>.*/s, "$<co
