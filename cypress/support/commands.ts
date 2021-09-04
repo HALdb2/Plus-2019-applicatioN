@@ -48,4 +48,7 @@ function login({
 }
 
 function cleanupUser({ email }: { email?: string } = {}) {
-  if (emai
+  if (email) {
+    deleteUserByEmail(email);
+  } else {
+    cy.g
