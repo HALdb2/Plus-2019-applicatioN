@@ -68,4 +68,5 @@ function deleteUserByEmail(email: string) {
   cy.clearCookie("__session");
 }
 
-Cypres
+Cypress.Commands.add("login", login);
+Cypress.Commands.add("clea
