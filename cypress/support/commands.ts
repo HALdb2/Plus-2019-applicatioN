@@ -63,4 +63,4 @@ function cleanupUser({ email }: { email?: string } = {}) {
 
 function deleteUserByEmail(email: string) {
   cy.exec(
- 
+    `node --require esbuild-register ./cypress/support/del
