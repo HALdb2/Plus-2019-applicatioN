@@ -58,4 +58,9 @@ function cleanupUser({ email }: { email?: string } = {}) {
       }
     });
   }
-  cy.clearCookie("__sessi
+  cy.clearCookie("__session");
+}
+
+function deleteUserByEmail(email: string) {
+  cy.exec(
+ 
