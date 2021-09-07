@@ -69,4 +69,8 @@ function deleteUserByEmail(email: string) {
 }
 
 Cypress.Commands.add("login", login);
-Cypress.Commands.add("clea
+Cypress.Commands.add("cleanupUser", cleanupUser);
+
+/*
+eslint
+  @typescript-eslin
