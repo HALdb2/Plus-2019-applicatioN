@@ -73,4 +73,5 @@ Cypress.Commands.add("cleanupUser", cleanupUser);
 
 /*
 eslint
-  @typescript-eslin
+  @typescript-eslint/no-namespace: "off",
+*/
