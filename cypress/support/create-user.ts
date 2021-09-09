@@ -5,4 +5,5 @@
 // as that new user.
 
 import { parse } from "cookie";
+import { installGlobals } from "@remix-run/node/globals";
 import
