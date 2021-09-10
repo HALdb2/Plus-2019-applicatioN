@@ -9,4 +9,7 @@ import { installGlobals } from "@remix-run/node/globals";
 import { createUserSession } from "~/session.server";
 import { createUser } from "~/models/user.server";
 
-installGlo
+installGlobals();
+
+async function createAndLogin(email: string) {
+  if (!e
