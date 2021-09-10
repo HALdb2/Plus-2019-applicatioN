@@ -13,4 +13,7 @@ installGlobals();
 
 async function createAndLogin(email: string) {
   if (!email) {
-    throw new Error("email required for log
+    throw new Error("email required for login");
+  }
+  if (!email.endsWith("@example.com")) {
+    t
