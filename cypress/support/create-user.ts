@@ -32,4 +32,5 @@ async function createAndLogin(email: string) {
   if (!cookieValue) {
     throw new Error("Cookie missing from createUserSession response");
   }
-  const parsed
+  const parsedCookie = parse(cookieValue);
+  // we log it like this 
