@@ -28,4 +28,6 @@ async function createAndLogin(email: string) {
     redirectTo: "/",
   });
 
-  const cookieValue = response.headers.get("Set
+  const cookieValue = response.headers.get("Set-Cookie");
+  if (!cookieValue) {
+    throw new Error("Cookie missin
