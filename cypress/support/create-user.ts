@@ -16,4 +16,4 @@ async function createAndLogin(email: string) {
     throw new Error("email required for login");
   }
   if (!email.endsWith("@example.com")) {
-    t
+    throw new Error("All test emails must end in @example
