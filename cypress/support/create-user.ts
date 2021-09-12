@@ -33,4 +33,5 @@ async function createAndLogin(email: string) {
     throw new Error("Cookie missing from createUserSession response");
   }
   const parsedCookie = parse(cookieValue);
-  // we log it like this 
+  // we log it like this so our cypress command can parse it out and set it as
+ 
