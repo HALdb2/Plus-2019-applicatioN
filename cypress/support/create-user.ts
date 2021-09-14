@@ -37,4 +37,7 @@ async function createAndLogin(email: string) {
   // the cookie value.
   console.log(
     `
-<cookie
+<cookie>
+  ${parsedCookie.__session}
+</cookie>
+  `.trim()
