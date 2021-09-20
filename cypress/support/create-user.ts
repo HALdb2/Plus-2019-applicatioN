@@ -41,3 +41,7 @@ async function createAndLogin(email: string) {
   ${parsedCookie.__session}
 </cookie>
   `.trim()
+  );
+}
+
+createAndLogin(process.argv[2]);
