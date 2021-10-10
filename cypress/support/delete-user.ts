@@ -10,4 +10,6 @@ installGlobals();
 
 async function deleteUser(email: string) {
   if (!email) {
-    t
+    throw new Error("email required for login");
+  }
+  
