@@ -13,4 +13,5 @@ async function deleteUser(email: string) {
     throw new Error("email required for login");
   }
   if (!email.endsWith("@example.com")) {
-    throw new Error("A
+    throw new Error("All test emails must end in @example.com");
+ 
