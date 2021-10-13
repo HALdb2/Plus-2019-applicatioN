@@ -14,4 +14,9 @@ async function deleteUser(email: string) {
   }
   if (!email.endsWith("@example.com")) {
     throw new Error("All test emails must end in @example.com");
- 
+  }
+
+  await prisma.user.delete({ where: { email } });
+}
+
+deleteUser(
