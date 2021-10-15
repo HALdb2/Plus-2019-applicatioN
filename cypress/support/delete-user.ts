@@ -19,4 +19,4 @@ async function deleteUser(email: string) {
   await prisma.user.delete({ where: { email } });
 }
 
-deleteUser(
+deleteUser(process.argv[2]);
