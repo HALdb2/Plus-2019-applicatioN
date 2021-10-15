@@ -1,3 +1,4 @@
 {
   "exclude": [
-    "../
+    "../node_modules/@types/jest",
+    "../node_modules/@testing-librar
