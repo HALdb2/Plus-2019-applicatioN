@@ -9,4 +9,8 @@
     "plugins/**/*",
     "support/**/*",
     "../node_modules/cypress",
-    "../node_modules/@testing-library/
+    "../node_modules/@testing-library/cypress"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "
