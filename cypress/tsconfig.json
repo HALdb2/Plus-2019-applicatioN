@@ -13,4 +13,5 @@
   ],
   "compilerOptions": {
     "baseUrl": ".",
-    "
+    "noEmit": true,
+    "types": ["node", "cypress", "@testi
