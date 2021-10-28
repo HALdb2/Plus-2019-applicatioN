@@ -16,4 +16,6 @@
     "noEmit": true,
     "types": ["node", "cypress", "@testing-library/cypress"],
     "esModuleInterop": true,
-    "jsx"
+    "jsx": "react",
+    "moduleResolution": "node",
+    "target": "es
