@@ -21,4 +21,5 @@
     "target": "es2019",
     "strict": true,
     "skipLibCheck": true,
-    "
+    "resolveJsonModule": true,
+    "typeRoots": ["../types", "../nod
