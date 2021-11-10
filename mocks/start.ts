@@ -1,3 +1,6 @@
 import { setupServer } from "msw/node";
 
-const server = setupServ
+const server = setupServer();
+
+server.listen({ onUnhandledRequest: "warn" });
+console.inf
