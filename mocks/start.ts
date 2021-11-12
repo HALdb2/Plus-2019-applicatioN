@@ -5,4 +5,5 @@ const server = setupServer();
 server.listen({ onUnhandledRequest: "warn" });
 console.info("🔶 Mock server running");
 
-process.once("SIGINT", 
+process.once("SIGINT", () => server.close());
+process.once("SIGTERM"
