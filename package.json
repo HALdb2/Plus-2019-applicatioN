@@ -4,4 +4,6 @@
   "description": "",
   "license": "",
   "sideEffects": false,
-  "s
+  "scripts": {
+    "build": "run-s build:*",
+  
