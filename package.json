@@ -10,4 +10,5 @@
     "build:remix": "remix build",
     "dev": "run-p dev:*",
     "dev:css": "npm run generate:css -- --watch",
-    "dev:remix": "n
+    "dev:remix": "node --require ./mocks ./node_modules/.bin/remix dev",
+    "
