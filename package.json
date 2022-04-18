@@ -13,4 +13,5 @@
     "dev:remix": "node --require ./mocks ./node_modules/.bin/remix dev",
     "format": "prettier --write .",
     "generate:css": "tailwindcss -o ./app/styles/tailwind.css",
-    "postinstall": "remix set
+    "postinstall": "remix setup node",
+    "lint": "eslint --cache --cach
