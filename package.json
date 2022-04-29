@@ -15,4 +15,5 @@
     "generate:css": "tailwindcss -o ./app/styles/tailwind.css",
     "postinstall": "remix setup node",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
-    "setup": 
+    "setup": "run-s setup:db setup:app",
+    "setup:app": "run-p \"test -- --ru
