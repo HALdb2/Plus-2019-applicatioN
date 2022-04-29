@@ -16,4 +16,5 @@
     "postinstall": "remix setup node",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "setup": "run-s setup:db setup:app",
-    "setup:app": "run-p \"test -- --ru
+    "setup:app": "run-p \"test -- --run\" lint typecheck test:e2e:run",
+    "setup:db": "prisma migrate dev"
