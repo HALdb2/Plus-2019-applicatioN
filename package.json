@@ -17,4 +17,6 @@
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "setup": "run-s setup:db setup:app",
     "setup:app": "run-p \"test -- --run\" lint typecheck test:e2e:run",
-    "setup:db": "prisma migrate dev"
+    "setup:db": "prisma migrate dev",
+    "deploy:db": "prisma migrate deploy",
+    "start": "
