@@ -21,3 +21,5 @@
     "deploy:db": "prisma migrate deploy",
     "start": "remix-serve build",
     "start:mocks": "node --require ./mocks ./node_modules/.bin/remix-serve build",
+    "test": "vitest",
+    "test:e2e:dev": "start-s
