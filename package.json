@@ -23,4 +23,5 @@
     "start:mocks": "node --require ./mocks ./node_modules/.bin/remix-serve build",
     "test": "vitest",
     "test:e2e:dev": "start-server-and-test dev http://localhost:3000 'cypress open'",
-   
+    "pretest:e2e:run": "npm run build",
+    "test:e2e:
