@@ -30,4 +30,8 @@
   "prettier": {},
   "eslintIgnore": [
     "/node_modules",
-    "/bu
+    "/build",
+    "/public/build"
+  ],
+  "dependencies": {
+    "@node-r
