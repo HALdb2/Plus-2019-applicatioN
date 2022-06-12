@@ -34,4 +34,6 @@
     "/public/build"
   ],
   "dependencies": {
-    "@node-r
+    "@node-rs/bcrypt": "^1.6.0",
+    "@prisma/client": "^3.11.0",
+ 
