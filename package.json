@@ -40,4 +40,6 @@
     "@remix-run/react": "*",
     "@remix-run/serve": "*",
     "react": "^17.0.2",
-    "react-dom": 
+    "react-dom": "^17.0.2",
+    "remix": "*",
+    "tiny-invariant": "^1.2
