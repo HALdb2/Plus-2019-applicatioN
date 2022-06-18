@@ -38,4 +38,6 @@
     "@prisma/client": "^3.11.0",
     "@reach/alert": "^0.16.0",
     "@remix-run/react": "*",
- 
+    "@remix-run/serve": "*",
+    "react": "^17.0.2",
+    "react-dom": 
