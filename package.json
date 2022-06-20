@@ -48,4 +48,5 @@
     "@faker-js/faker": "^6.0.0",
     "@remix-run/dev": "*",
     "@remix-run/eslint-config": "*",
-    "@
+    "@testing-library/cypress": "^8.0.2",
+    "@testing-library/jest
