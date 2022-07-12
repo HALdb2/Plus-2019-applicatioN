@@ -62,4 +62,6 @@
     "esbuild-register": "^3.3.2",
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
-    "happy
+    "happy-dom": "^2.49.0",
+    "msw": "^0.39.2",
+    "npm-run
