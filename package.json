@@ -71,4 +71,7 @@
     "start-server-and-test": "^1.14.0",
     "tailwindcss": "^3.0.23",
     "typescript": "^4.6.2",
-    "vite-t
+    "vite-tsconfig-paths": "^3.4.1",
+    "vitest": "^0.7.0"
+  },
+  
