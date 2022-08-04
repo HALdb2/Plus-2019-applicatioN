@@ -78,4 +78,4 @@
     "node": ">=14"
   },
   "prisma": {
-    "
+    "seed": "node --require esbuild-register pris
