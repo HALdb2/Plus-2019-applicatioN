@@ -78,4 +78,6 @@
     "node": ">=14"
   },
   "prisma": {
-    "seed": "node --require esbuild-register pris
+    "seed": "node --require esbuild-register prisma/seed.ts"
+  }
+}
