@@ -9,4 +9,6 @@ CREATE TABLE "User" (
 );
 
 -- CreateTable
-CREATE TABLE "Passwor
+CREATE TABLE "Password" (
+    "hash" TEXT NOT NULL,
+    "userId"
