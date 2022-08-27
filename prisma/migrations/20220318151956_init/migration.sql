@@ -11,4 +11,9 @@ CREATE TABLE "User" (
 -- CreateTable
 CREATE TABLE "Password" (
     "hash" TEXT NOT NULL,
-    "userId"
+    "userId" TEXT NOT NULL
+);
+
+-- CreateTable
+CREATE TABLE "Note" (
+    "id" T
