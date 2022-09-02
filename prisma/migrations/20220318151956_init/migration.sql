@@ -16,4 +16,6 @@ CREATE TABLE "Password" (
 
 -- CreateTable
 CREATE TABLE "Note" (
-    "id" T
+    "id" TEXT NOT NULL,
+    "title" TEXT NOT NULL,
+    "body" TEXT N
