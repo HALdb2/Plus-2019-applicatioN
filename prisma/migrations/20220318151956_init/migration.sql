@@ -18,4 +18,5 @@ CREATE TABLE "Password" (
 CREATE TABLE "Note" (
     "id" TEXT NOT NULL,
     "title" TEXT NOT NULL,
-    "body" TEXT N
+    "body" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT
