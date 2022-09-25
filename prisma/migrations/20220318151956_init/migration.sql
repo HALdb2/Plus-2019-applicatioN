@@ -27,4 +27,7 @@ CREATE TABLE "Note" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "User_email_key"
+CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Passwor
