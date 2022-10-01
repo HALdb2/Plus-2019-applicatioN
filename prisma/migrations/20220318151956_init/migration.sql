@@ -33,4 +33,4 @@ CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
 CREATE UNIQUE INDEX "Password_userId_key" ON "Password"("userId");
 
 -- AddForeignKey
-ALTER
+ALTER TABLE "Password" ADD CONSTRAINT "Password_userId_fkey" F
