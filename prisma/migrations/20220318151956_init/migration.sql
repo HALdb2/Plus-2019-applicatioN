@@ -30,4 +30,7 @@ CREATE TABLE "Note" (
 CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Passwor
+CREATE UNIQUE INDEX "Password_userId_key" ON "Password"("userId");
+
+-- AddForeignKey
+ALTER
