@@ -15,4 +15,10 @@ model User {
   updatedAt DateTime @updatedAt
 
   password Password?
-  no
+  notes    Note[]
+}
+
+model Password {
+  hash String
+
+  user   
