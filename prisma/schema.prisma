@@ -26,4 +26,8 @@ model Password {
 }
 
 model Note {
-  id    String @id @default(cu
+  id    String @id @default(cuid())
+  title String
+  body  String
+
+  createdAt Dat
