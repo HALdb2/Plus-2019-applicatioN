@@ -33,4 +33,4 @@ model Note {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  use
+  user   User   @relation(fields: [userId], references: [
