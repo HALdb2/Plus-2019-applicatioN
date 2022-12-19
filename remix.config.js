@@ -1,4 +1,5 @@
 /**
  * @type {import('@remix-run/dev').AppConfig}
  */
-module.exp
+module.exports = {
+  cacheDirectory: "./node_modules/.cache/re
