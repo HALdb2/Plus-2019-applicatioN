@@ -14,3 +14,5 @@ function getRandomString(length) {
   return crypto.randomBytes(length).toString("hex");
 }
 
+async function main({ rootDirectory }) {
+  const README_PATH = 
