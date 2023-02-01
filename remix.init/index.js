@@ -6,4 +6,5 @@ const path = require("path");
 const sort = require("sort-package-json");
 
 function escapeRegExp(string) {
-  // $& means the whole m
+  // $& means the whole matched string
+  return string.replace(/[.*+?^${}()|[\]\\]/g, "\
