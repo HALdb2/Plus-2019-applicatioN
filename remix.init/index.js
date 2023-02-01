@@ -16,4 +16,5 @@ function getRandomString(length) {
 
 async function main({ rootDirectory }) {
   const README_PATH = path.join(rootDirectory, "README.md");
-  const EXAMPLE_ENV_PATH = 
+  const EXAMPLE_ENV_PATH = path.join(rootDirectory, ".env.example");
+  const ENV_PATH
