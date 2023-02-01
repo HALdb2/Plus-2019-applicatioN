@@ -11,4 +11,6 @@ function escapeRegExp(string) {
 }
 
 function getRandomString(length) {
-  retur
+  return crypto.randomBytes(length).toString("hex");
+}
+
