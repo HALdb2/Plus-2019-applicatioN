@@ -18,4 +18,6 @@ async function main({ rootDirectory }) {
   const README_PATH = path.join(rootDirectory, "README.md");
   const EXAMPLE_ENV_PATH = path.join(rootDirectory, ".env.example");
   const ENV_PATH = path.join(rootDirectory, ".env");
-  const PACKAGE_JSON_
+  const PACKAGE_JSON_PATH = path.join(rootDirectory, "package.json");
+
+  cons
