@@ -20,4 +20,6 @@ async function main({ rootDirectory }) {
   const ENV_PATH = path.join(rootDirectory, ".env");
   const PACKAGE_JSON_PATH = path.join(rootDirectory, "package.json");
 
-  cons
+  const REPLACER = "indie-stack-template";
+
+  const DIR_NAME = path.basename(r
