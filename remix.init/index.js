@@ -22,4 +22,6 @@ async function main({ rootDirectory }) {
 
   const REPLACER = "indie-stack-template";
 
-  const DIR_NAME = path.basename(r
+  const DIR_NAME = path.basename(rootDirectory);
+  const SUFFIX = getRandomString(2);
+ 
