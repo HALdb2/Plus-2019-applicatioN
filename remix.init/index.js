@@ -24,4 +24,6 @@ async function main({ rootDirectory }) {
 
   const DIR_NAME = path.basename(rootDirectory);
   const SUFFIX = getRandomString(2);
- 
+  const APP_NAME = DIR_NAME + "-" + SUFFIX;
+
+  const [readme
