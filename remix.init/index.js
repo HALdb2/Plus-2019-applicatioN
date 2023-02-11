@@ -34,4 +34,5 @@ async function main({ rootDirectory }) {
   ]);
 
   const newEnv = env.replace(
-    /^SESSION_
+    /^SESSION_SECRET=.*$/m,
+    `SESSION_SECRET="${getRandomString(16
