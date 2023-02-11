@@ -29,4 +29,5 @@ async function main({ rootDirectory }) {
   const [readme, env, packageJson] = await Promise.all([
     fs.readFile(FLY_TOML_PATH, "utf-8"),
     fs.readFile(README_PATH, "utf-8"),
-    fs.readFile(EXAMPLE_E
+    fs.readFile(EXAMPLE_ENV_PATH, "utf-8"),
+    fs.readFile(PACKAGE_JSON_PATH, 
