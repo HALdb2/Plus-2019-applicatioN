@@ -26,4 +26,5 @@ async function main({ rootDirectory }) {
   const SUFFIX = getRandomString(2);
   const APP_NAME = DIR_NAME + "-" + SUFFIX;
 
-  const [readme
+  const [readme, env, packageJson] = await Promise.all([
+    fs.
