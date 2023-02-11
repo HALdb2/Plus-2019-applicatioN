@@ -30,4 +30,8 @@ async function main({ rootDirectory }) {
     fs.readFile(FLY_TOML_PATH, "utf-8"),
     fs.readFile(README_PATH, "utf-8"),
     fs.readFile(EXAMPLE_ENV_PATH, "utf-8"),
-    fs.readFile(PACKAGE_JSON_PATH, 
+    fs.readFile(PACKAGE_JSON_PATH, "utf-8"),
+  ]);
+
+  const newEnv = env.replace(
+    /^SESSION_
