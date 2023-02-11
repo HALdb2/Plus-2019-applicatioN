@@ -35,4 +35,8 @@ async function main({ rootDirectory }) {
 
   const newEnv = env.replace(
     /^SESSION_SECRET=.*$/m,
-    `SESSION_SECRET="${getRandomString(16
+    `SESSION_SECRET="${getRandomString(16)}"`
+  );
+
+  const newReadme = readme.replace(
+    new Reg
