@@ -43,4 +43,6 @@ async function main({ rootDirectory }) {
     APP_NAME
   );
 
-  const n
+  const newPackageJson =
+    JSON.stringify(
+      sort({ ...J
