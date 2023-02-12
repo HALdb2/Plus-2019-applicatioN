@@ -52,4 +52,5 @@ async function main({ rootDirectory }) {
 
   await Promise.all([
     fs.writeFile(README_PATH, newReadme),
-    fs.writeFile(
+    fs.writeFile(ENV_PATH, newEnv),
+    fs.writeFile(PACKAGE_JSON_PATH, newPackageJ
