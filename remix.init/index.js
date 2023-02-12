@@ -39,4 +39,8 @@ async function main({ rootDirectory }) {
   );
 
   const newReadme = readme.replace(
-    new Reg
+    new RegExp(escapeRegExp(REPLACER), "g"),
+    APP_NAME
+  );
+
+  const n
