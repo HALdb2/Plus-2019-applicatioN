@@ -51,4 +51,5 @@ async function main({ rootDirectory }) {
     ) + "\n";
 
   await Promise.all([
-    fs.wri
+    fs.writeFile(README_PATH, newReadme),
+    fs.writeFile(
