@@ -48,3 +48,7 @@ async function main({ rootDirectory }) {
       sort({ ...JSON.parse(packageJson), name: APP_NAME }),
       null,
       2
+    ) + "\n";
+
+  await Promise.all([
+    fs.wri
