@@ -59,4 +59,4 @@ async function main({ rootDirectory }) {
   console.log(
     `Running the setup script to make sure everything was set up properly`
   );
-  execSync
+  execSync(`npm run setup`, { stdio: "inherit", cwd: rootDirecto
