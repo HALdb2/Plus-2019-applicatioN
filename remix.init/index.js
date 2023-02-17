@@ -57,4 +57,6 @@ async function main({ rootDirectory }) {
   ]);
 
   console.log(
-    `Running the setup scr
+    `Running the setup script to make sure everything was set up properly`
+  );
+  execSync
