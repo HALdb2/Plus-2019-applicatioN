@@ -61,4 +61,7 @@ async function main({ rootDirectory }) {
   );
   execSync(`npm run setup`, { stdio: "inherit", cwd: rootDirectory });
 
-  console.log(`✅  Project is ready! Start development with "n
+  console.log(`✅  Project is ready! Start development with "npm run dev"`);
+}
+
+module.exports = main;
