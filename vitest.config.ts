@@ -1,2 +1,5 @@
 /// <reference types="vitest" />
-/// <reference types=
+/// <reference types="vite/client" />
+
+import { defineConfig } from "vite";
+import rea
